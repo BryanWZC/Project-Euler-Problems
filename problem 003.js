@@ -3,16 +3,18 @@ function largestPrimeFactor(number) {
         number /= 2;
     }
     let largest = 2;
-    let i = 3;
-    while(number !== 1){
-        if(number % i === 0){
+    for(let i = 3; i <= parseInt(Math.sqrt(number)) + 1; i += 2){
+        while(number % i === 0){
             number /= i;
             largest = i;
         }
-        i+=2;
     }
+    if(number > 2) largest = number
+
     return largest;
 }
+
+console.log(largestPrimeFactor(21))
 
 /**
  * Explanation:
