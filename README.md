@@ -12,6 +12,7 @@ By: Bryan Wong
 8. [Largest product in a series](https://github.com/BryanWZC/Project-Euler-Problems/blob/master/problem%20008.js)
 9. [Special Pythagorean triplet](https://github.com/BryanWZC/Project-Euler-Problems/blob/master/problem%20009.js)
 10. [Summation of primes](https://github.com/BryanWZC/Project-Euler-Problems/blob/master/problem%20010.js)
+11. [Largest product in a grid](https://github.com/BryanWZC/Project-Euler-Problems/blob/master/problem%20011.js)
 
 &nbsp;
 
